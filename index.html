@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farhan </title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="https://www.instagram.com/farhan_farruu_" target="_blank" class="logo">Mohd
+      <span>Farhan</span>
+    </a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home  -->
+  <section class="home" id="home">
+
+    <div class="home-img">
+      <img src="DP4web.png" alt="Farhan Image">
+    </div>
+
+    <div class="home-content">
+      <h1>It's <span>Farhan</span></h1>
+      <h3 class="text-animation">
+        I'm a <span></span>
+      </h3>
+      <p>A passionate and driven Customer Support Executive known for my innovative problem-solving approach and strong
+        communication skills. I thrive in dynamic environments, constantly seeking new challenges that push me to learn
+        and grow. With a knack for connecting with people and an eye for detail, I am dedicated to delivering
+        exceptional service and making a positive impact in every task I undertake.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/mohd-farhan-482624285/" target="_blank"><i class='bx bxl-linkedin-square'
+            style='color:#ffffff'></i></a>
+        <a href="https://www.instagram.com/farhan_farruu_" target="_blank"><i class='bx bxl-instagram'
+            style='color:#ffffff'></i></a>
+        <a href="https://x.com/farhan_farrru" target="_blank"><i class='bx bxl-twitter' style='color:#ffffff'></i></a>
+        <a href="https://www.threads.net/@farhan_farruu_?xmt=AQGz0Z_PfhQyElDEvJY8i9O1Nv4BvEM2hBCRv9aTXg_0pPk"
+          target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-threads" style='color:#ffffff' viewBox="0 0 16 16">
+            <path
+              d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
+          </svg> </a></li>
+        <a href="https://github.com/mohdfarhan46" target="_blank"><i class='bx bxl-github'
+            style='color:#ffffff'></i></a>
+      </div>
+
+      <a href="FarhanResume.pdf" download="FarhanResume.pdf" class="btn">Resume</a>
+
+    </div>
+  </section>
+
+  <!-- About  -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span>
+      </h2>
+      <h3 class="text-animation">
+        <span></span>
+      </h3>
+      <p class="text-content" id="text">I am a passionate and results-driven Customer Support Executive with a creative
+        flair and a keen ability to
+        connect with people. My journey is defined by a relentless drive to innovate, solve problems, and deliver
+        exceptional service in every interaction. I thrive in dynamic, fast-paced environments where I can leverage my
+        communication skills and keen attention to detail to make a meaningful impact.
+
+        What sets me apart is my unwavering commitment to personal growth and my ability to adapt quickly to new
+        challenges. Whether I’m navigating complex customer queries or exploring new learning opportunities, I approach
+        every task with a proactive mindset and a genuine desire to excel. My strengths lie in my problem-solving
+        capabilities, my empathetic approach to customer interactions, and my passion for turning obstacles into
+        opportunities.
+
+        Outside of work, I am constantly exploring new ways to expand my skills and stay inspired, always ready to take
+        on the next challenge with creativity and enthusiasm..</p>
+      <a class="btn" id="toggle-button" onclick="toggleText()">Read More</a>
+    </div>
+    <div class="about-img">
+      <img src="DP4web.png" alt="Farhan Image">
+    </div>
+  </section>
+
+  <!--Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Phone Number">
+        <input type="text" placeholder="Subject" required>
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <!-- <input type="submit" value="Send Message" class="btn" > -->
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTLqDbtRVtJqPsLPpxQHrXXdMgdshmjmCHnjRQRTDdnMWVnrnxVbfvPVRfPJlCLWDWsxQB"
+        class="btn" target="_blank">Send Mail</a>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/mohd-farhan-482624285/" target="_blank"><i class='bx bxl-linkedin-square'
+          style='color:#ffffff'></i></a>
+      <a href="https://www.instagram.com/farhan_farruu_" target="_blank"><i class='bx bxl-instagram'
+          style='color:#ffffff'></i></a>
+      <a href="https://x.com/farhan_farrru" target="_blank"><i class='bx bxl-twitter' style='color:#ffffff'></i></a>
+      <a href="https://www.threads.net/@farhan_farruu_?xmt=AQGz0Z_PfhQyElDEvJY8i9O1Nv4BvEM2hBCRv9aTXg_0pPk"
+        target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+          class="bi bi-threads" style='color:#ffffff' viewBox="0 0 16 16">
+          <path
+            d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161" />
+        </svg> </a></li>
+      <a href="https://github.com/mohdfarhan46" target="_blank"><i class='bx bxl-github' style='color:#ffffff'></i></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="">FAQ</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+
+    </ul>
+    <p class="copyright">Designed By
+      @ <a href="https://www.instagram.com/mr.zubair__01/" target="_blank" style='color:#ffffff'>Mohd Zubair</a> | All
+      Rights Reserved
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
