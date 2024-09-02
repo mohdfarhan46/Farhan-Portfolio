@@ -439,6 +439,7 @@ span {
 @media (max-width: 895px) {
   #menu-icon {
     display: block;
+    cursor:pointer;
   }
   .navbar {
     position: absolute;
@@ -451,6 +452,7 @@ span {
     border-bottom-left-radius: 2rem;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
+    display:none;
   }
   .navbar .active {
     display: block;
